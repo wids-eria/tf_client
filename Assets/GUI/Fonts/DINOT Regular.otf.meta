@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8a400e3f8b3114b49b87c2b9e6f8d72f
+TrueTypeFontImporter:
+  serializedVersion: 2
+  fontSize: 16
+  fontColor: {r: 1, g: 1, b: 1, a: 1}
+  forceTextureCase: 1
+  renderMode: 0
+  style: 0
+  includeFontData: 1
+  use2xBehaviour: 0
+  fontNames:
+  - DINOT-Regular
+  - Arial
+  customCharacters: 
