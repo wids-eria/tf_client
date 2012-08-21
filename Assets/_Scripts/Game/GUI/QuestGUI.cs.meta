@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: ef4c12198efd042efb7558025a49d244
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - progressBarFillTex: {fileID: 2800000, guid: 99e9d630b8d3f41a2b7bba19e9fa808b,
+      type: 1}
+  - incompleteIcon: {fileID: 2800000, guid: 60d543acb33a14a1e9e3381340d2c0f1, type: 1}
+  - completeIcon: {fileID: 2800000, guid: f39e071016c3c419995d32492cc2c950, type: 1}
+  executionOrder: 0
+  icon: {instanceID: 0}

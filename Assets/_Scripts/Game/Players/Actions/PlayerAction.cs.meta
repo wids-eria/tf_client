@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: f3efcd20d30f44ac8ad9ad86ef5ac853
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - effectPrefab: {instanceID: 0}
+  - icon: {instanceID: 0}
+  - m_clearResourceTileSelectionIcon: {fileID: 2800000, guid: a006e44500b854a5a93c63d33e92ff40,
+      type: 1}
+  - m_selectResourceTileIconOn: {fileID: 2800000, guid: 7b8e8d4f5fb4a4bc19348b7f50a33485,
+      type: 1}
+  - m_selectResourceTileIconOff: {fileID: 2800000, guid: d4060922d1f4e407f9f80df2979ee0ea,
+      type: 1}
+  - m_deselectResourceTileIconOn: {fileID: 2800000, guid: fe93b94c4662f496db1ab1d07b6829f3,
+      type: 1}
+  - m_deselectResourceTileIconOff: {fileID: 2800000, guid: 6a9d51eff2e774d1e8786d99ffb7765b,
+      type: 1}
+  - m_submitResourceTileSelectionIcon: {fileID: 2800000, guid: 911e97c995bf34beb9edcfd105bfb587,
+      type: 1}
+  executionOrder: 0
+  icon: {instanceID: 0}

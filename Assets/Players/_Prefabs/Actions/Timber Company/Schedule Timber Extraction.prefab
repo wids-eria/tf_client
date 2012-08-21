@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 3
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: Schedule Timber Extraction
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29bc49188577949778f1a7905705d44d, type: 1}
+  m_Name: 
+  notificationMessage: HarvestScheduled
+  inputMode: 1
+  allowPerformance: 0
+  tooltip: Schedule a regular timber extraction.
+  cost: 25
+  effectPrefab: {fileID: 0}
+  icon: {fileID: 2800000, guid: dbf08e33ba53f4d04b7505c925c0434e, type: 1}
+  hasServerAPIPoint: 0
+  controlsAreaHeight: 462
+  dialogLongDescription: Configure your harvesting strategy to extract timber at a
+    regular interval.
+  dialogConfirmButtonDo:
+    m_Text: BEGIN HARVEST
+    m_Image: {fileID: 0}
+    m_Tooltip: Schedule a regular extraction using the current coniguration.
+  timeToWaitForRefresh: .5
+  m_basalAreaSliderSnap: 5
+  m_qRatioSliderSnap: .00999999978
+  m_sliderWidthFactor: .270000011
+  m_poleTimberPointStyle:
+    color: {r: .843193293, g: .876232028, b: .0265294258, a: 1}
+    graphic: {fileID: 2800000, guid: 3463f7f052c954a86a347e4a4ace4557, type: 1}
+  m_sawTimberPointStyle:
+    color: {r: .827234685, g: .271970302, b: .10181623, a: 1}
+    graphic: {fileID: 2800000, guid: 7f620b4269fb045a499d730145f9aeea, type: 1}
+  m_lineGraphLineMaterial: {fileID: 2100000, guid: f2ee67c981f57468397e2e7f9433b2fd,
+    type: 2}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
