@@ -1,2 +1,7 @@
 Temp/*
 Library/*
+obj/*
+*.sln
+*.csproj
+*.unityproj
+*.suo
